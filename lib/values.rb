@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.each do |key, value|
+  groceries.each do |key, item|
     value.values
 end
