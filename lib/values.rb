@@ -10,6 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-array = []
-array = groceries.values
+groceries.values.flatten
 end
